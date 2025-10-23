@@ -1,133 +1,97 @@
-{
-  "recetas": [
-    {
-      "id": 1,
-      "nombre": "Ensalada de quinoa y aguacate",
-      "ingredientes": [
-        "1 taza de quinoa cocida",
-        "1 aguacate",
-        "1 tomate",
-        "1 pepino",
-        "Zumo de medio limón",
-        "Aceite de oliva",
-        "Sal y pimienta"
-      ],
-      "pasos": [
-        "Cocer la quinoa y dejar enfriar.",
-        "Cortar el aguacate, el tomate y el pepino en cubos pequeños.",
-        "Mezclar todos los ingredientes en un bol.",
-        "Añadir el zumo de limón, aceite, sal y pimienta al gusto."
-      ],
-      "tags": ["ensalada", "vegana", "saludable", "rápida"],
-      "tiempo": 15,
-      "vegana": true
-    },
-    {
-      "id": 2,
-      "nombre": "Spaghetti a la boloñesa",
-      "ingredientes": [
-        "200 g de spaghetti",
-        "250 g de carne picada de ternera",
-        "1 cebolla",
-        "2 dientes de ajo",
-        "200 ml de salsa de tomate",
-        "Aceite de oliva",
-        "Sal y orégano"
-      ],
-      "pasos": [
-        "Cocer los spaghetti en agua con sal hasta que estén al dente.",
-        "Sofreír la cebolla y el ajo picados en aceite.",
-        "Añadir la carne picada y cocinar hasta dorar.",
-        "Incorporar la salsa de tomate y condimentar con sal y orégano.",
-        "Servir la salsa sobre la pasta cocida."
-      ],
-      "tags": ["pasta", "italiana", "carne"],
-      "tiempo": 30,
-      "vegana": false
-    },
-    {
-      "id": 3,
-      "nombre": "Tacos de lentejas",
-      "ingredientes": [
-        "200 g de lentejas cocidas",
-        "1 cebolla",
-        "1 pimiento rojo",
-        "1 cucharadita de comino",
-        "Tortillas de maíz",
-        "Guacamole y salsa al gusto"
-      ],
-      "pasos": [
-        "Picar y sofreír la cebolla y el pimiento.",
-        "Añadir las lentejas cocidas y el comino, mezclar bien.",
-        "Calentar las tortillas y rellenarlas con la mezcla.",
-        "Agregar guacamole y salsa al gusto antes de servir."
-      ],
-      "tags": ["mexicana", "vegana", "sin gluten"],
-      "tiempo": 25,
-      "vegana": true
-    },
-    {
-      "id": 4,
-      "nombre": "Pollo al curry con arroz",
-      "ingredientes": [
-        "300 g de pechuga de pollo",
-        "1 cebolla",
-        "1 lata de leche de coco",
-        "2 cucharadas de curry en polvo",
-        "200 g de arroz",
-        "Aceite, sal y pimienta"
-      ],
-      "pasos": [
-        "Cocer el arroz y reservar.",
-        "Cortar el pollo en trozos y dorar en una sartén con aceite.",
-        "Añadir la cebolla picada y cocinar hasta que esté blanda.",
-        "Incorporar el curry y la leche de coco, dejar reducir unos minutos.",
-        "Servir con el arroz blanco."
-      ],
-      "tags": ["asiática", "pollo", "curry"],
-      "tiempo": 35,
-      "vegana": false
-    },
-    {
-      "id": 5,
-      "nombre": "Brownies de chocolate veganos",
-      "ingredientes": [
-        "1 taza de harina de avena",
-        "1/2 taza de cacao en polvo",
-        "1/2 taza de azúcar moreno",
-        "1 taza de leche vegetal",
-        "1/4 taza de aceite de coco",
-        "1 cucharadita de polvo de hornear"
-      ],
-      "pasos": [
-        "Precalentar el horno a 180°C.",
-        "Mezclar los ingredientes secos en un bol.",
-        "Agregar los líquidos y remover hasta obtener una masa homogénea.",
-        "Verter en un molde engrasado y hornear 25 minutos."
-      ],
-      "tags": ["postre", "vegana", "chocolate"],
-      "tiempo": 40,
-      "vegana": true
-    },
-    {
-      "id": 6,
-      "nombre": "Tortilla de patatas",
-      "ingredientes": [
-        "4 patatas medianas",
-        "5 huevos",
-        "1 cebolla",
-        "Aceite de oliva",
-        "Sal"
-      ],
-      "pasos": [
-        "Pelar y cortar las patatas en láminas finas.",
-        "Freír las patatas y la cebolla hasta que estén tiernas.",
-        "Escurrir el aceite y mezclar con los huevos batidos.",
-        "Cuajar la mezcla en la sartén por ambos lados."
-      ],
-      "tags": ["española", "tradicional", "huevo"],
-      "tiempo": 30,
-      "vegana": false
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "nombre": "Ensalada de quinoa y aguacate",
+    "ingredientes": [
+      "quinoa",
+      "aguacate",
+      "tomate cherry",
+      "pepino",
+      "limón",
+      "aceite de oliva"
+    ],
+    "pasos": [
+      "Cocinar la quinoa según las instrucciones del paquete.",
+      "Cortar el aguacate, el pepino y los tomates cherry.",
+      "Mezclar todos los ingredientes en un bol y aliñar con limón y aceite."
+    ],
+    "tags": [
+      "ensalada",
+      "vegano",
+      "saludable"
+    ],
+    "tiempo": 20,
+    "vegana": true
+  },
+  {
+    "id": 2,
+    "nombre": "Spaghetti a la boloñesa",
+    "ingredientes": [
+      "spaghetti",
+      "carne picada",
+      "tomate triturado",
+      "ajo",
+      "cebolla",
+      "aceite de oliva"
+    ],
+    "pasos": [
+      "Cocinar los spaghetti en agua con sal.",
+      "Sofreír la cebolla y el ajo, añadir la carne picada y luego el tomate.",
+      "Servir la salsa boloñesa sobre los spaghetti."
+    ],
+    "tags": [
+      "pasta",
+      "italiano"
+    ],
+    "tiempo": 35,
+    "vegana": false
+  },
+  {
+    "id": 3,
+    "nombre": "Crema de calabaza",
+    "ingredientes": [
+      "calabaza",
+      "patata",
+      "zanahoria",
+      "cebolla",
+      "aceite de oliva",
+      "sal"
+    ],
+    "pasos": [
+      "Pelar y cortar las verduras.",
+      "Cocer todo junto hasta que esté tierno.",
+      "Triturar hasta obtener una crema suave."
+    ],
+    "tags": [
+      "sopa",
+      "vegano",
+      "invierno"
+    ],
+    "tiempo": 30,
+    "vegana": true
+  },
+  {
+    "id": 4,
+    "nombre": "Pollo al curry",
+    "ingredientes": [
+      "pechuga de pollo",
+      "cebolla",
+      "nata líquida",
+      "curry en polvo",
+      "aceite de oliva",
+      "sal"
+    ],
+    "pasos": [
+      "Cortar el pollo en trozos y saltear con cebolla.",
+      "Añadir el curry y la nata, cocinar unos minutos.",
+      "Servir acompañado de arroz blanco."
+    ],
+    "tags": [
+      "pollo",
+      "curry",
+      "asiático"
+    ],
+    "tiempo": 25,
+    "vegana": false
+  }
+]

@@ -1,11 +1,11 @@
 from fastapi import FastAPI
-from app.routes import sample
+from app.routes import recipes  
 
-app = FastAPI()
+app = FastAPI(title="Recipes API")
 
-# Include the sample routes
-app.include_router(sample.router)
+app.include_router(recipes.router)
 
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
+
