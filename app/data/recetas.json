@@ -93,5 +93,20 @@
     ],
     "tiempo": 25,
     "vegana": false
+  },
+  {
+    "id": 20,
+    "nombre": "string",
+    "ingredientes": [
+      "string"
+    ],
+    "pasos": [
+      "string"
+    ],
+    "tags": [
+      "string"
+    ],
+    "tiempo": 0,
+    "vegana": true
   }
 ]
