@@ -27,7 +27,7 @@ La entidad principal es la “Receta”, que contiene los siguientes campos:
 
 ## Avance realizado  
 
-En esta primera fase hemos implementado una estructura base funcional del proyecto y las primeras operaciones CRUD.  
+En esta tercera fase hemos implementado una estructura base funcional del proyecto y todas operaciones CRUD.  
 Implementaciones actuales:  
     • Hemos creado la carpeta app/data con el archivo recetas.json que contiene datos de ejemplo.  
     • Hemos definido el modelo Receta en app/models/recipe.py.  
@@ -36,7 +36,11 @@ Implementaciones actuales:
     • Las operaciones actualmente disponibles son:  
         o GET /recipes → lista todas las recetas almacenadas en el JSON.  
         o GET /recipes/{id} → muestra el detalle de una receta concreta por su identificador.  
-        o DELETE /recipes/{id} → elimina una receta del archivo JSON.  
+        o DELETE /recipes/{id} → elimina una receta del archivo JSON.
+        o POST /recipes → permite crear una nueva receta.
+        o PUT /recipes/{id} → reemplaza completamente una receta existente.
+        o PATCH /recipes/{id} → actualiza únicamente los campos enviados. 
+        
 
 A diferencia del proyecto de ejemplo, que guardaba los datos solo en memoria (lo que significa que se perdían cada vez que se reiniciaba el servidor),  
 en nuestro proyecto los datos se guardan de forma persistente en un archivo local app/data/recetas.json.  
@@ -64,12 +68,14 @@ Este método de almacenamiento de datos es rápido y sencillo para una fase inic
 6. Desde ahí se pueden probar las operaciones disponibles:  
     • GET /recipes → Ver el listado completo de recetas.  
     • GET /recipes/{id} → Buscar una receta por su ID.  
-    • DELETE /recipes/{id} → Eliminar una receta del listado.  
+    • DELETE /recipes/{id} → Eliminar una receta del listado.
+    • POST /recipes → Crear una nueva receta.
+    • PUT /recipes/{id} → Reemplazar una receta completa.
+    • PATCH /recipes/{id} → Actualizar parcialmente una receta. 
 
 
 ## Próximos pasos  
-
-    • Añadir las operaciones POST, PUT y PATCH para crear y modificar recetas.  
+ 
     • Incorporar filtros en GET /recipes para buscar por texto, etiqueta o si es vegana.  
     • Sustituir el almacenamiento en JSON por una base de datos (SQLite o Oracle).  
     • Empaquetar el proyecto con Docker y desplegarlo en la nube.  
