@@ -10,7 +10,7 @@ El objetivo de este proyecto es desarrollar una API de recetas de cocina utiliza
 La API permitirá realizar operaciones CRUD (crear, leer, actualizar y borrar recetas):  
     • GET /recipes: lista y búsqueda (por texto, tag, vegana).  
     • GET /recipes/{id}: detalle.  
-    • POST /recipes: crear receta.  
+    • POST /recipes: crear receta.
     • PUT /recipes/{id}: reemplazar receta completa.  
     • PATCH /recipes/{id}: actualizar una receta.  
     • DELETE /recipes/{id}: borrar receta.  
